@@ -48,5 +48,9 @@ gem 'jwt'
 gem 'validates_email_format_of'
 
 
+gem "roo"
+gem "globalize"
+gem "awesome_nested_set", :git => "https://github.com/collectiveidea/awesome_nested_set"
+#gem 'shoppe'
 
 

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  #mount Shoppe::Engine => "/shoppe"
   namespace :api do
     namespace :v1 do
       post 'authenticate' => 'auth#authenticate'  
